@@ -1,6 +1,5 @@
 import os
 import yaml
-import random
 import mlflow
 
 FILE_DIR = os.path.dirname(os.path.abspath(__file__))
