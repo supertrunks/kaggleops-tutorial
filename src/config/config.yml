@@ -1,5 +1,5 @@
 experiment_name  : "g research crypto forecasting"
 bucket_name      : "kaggleops-bucket-prd"
-git_uri          : "https://github.com/supertrunks/g-research-crypto-forecasting
+git_uri          : "https://github.com/supertrunks/g-research-crypto-forecasting.git
 "
 
