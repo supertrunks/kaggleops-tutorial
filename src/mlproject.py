@@ -26,4 +26,4 @@ if __name__ == "__main__":
             yaml.dump(meta, file, default_flow_style=False)
             
     # MLprojectをgithubから持ってきて実行する
-    mlflow.projects.run(config['git_uri'], entry_point='main', experiment_name=config['experiment_name'], use_conda=False)
+    mlflow.projects.run(config['git_uri'], entry_point='main', version='main', experiment_name=config['experiment_name'], use_conda=False)
